@@ -1,0 +1,6 @@
+[core]
+    remote = ssh-storage
+['remote "ssh-storage"']
+    url = ssh://max@192.168.56.105/opt/datasets
+    user = max
+    port = 22
