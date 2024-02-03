@@ -5,7 +5,7 @@
 3) Установку необходимых библиотек python осуществил через requirements.txt
 4) Построил модель, определил метрику, задал гиперпараметры, провел эксперимент, сохранил артефакты
 5) Провел сравнение метрик
-# Инфраструктура - виртуальные машины развернул в libvirt:
+# Инфраструктура - виртуальные машины развернул в VBox:
 
 Data-server - храним датасеты (DVC)
 Admin-server - Jenkins и Ansible - с помощью этого сервера управляем остальными
@@ -82,5 +82,5 @@ ML-server - Обучение модели и push датасета  в Data-serv
 04:50:38 mlserver                   : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 04:50:38 
 04:50:38 Finished: SUCCESS
-# настроенные машины
+# Настроенные машины
 ![image](https://github.com/MaxAvgae/mlops2_project_1/assets/115181255/46352a7f-f1ca-45a9-94bb-2eca6595c519)
