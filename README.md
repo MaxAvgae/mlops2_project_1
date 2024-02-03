@@ -10,7 +10,11 @@
 Data-server - храним датасеты (DVC)
 Admin-server - Jenkins и Ansible - с помощью этого сервера управляем остальными
 ML-server - Обучение модели и push датасета  в Data-server с помощью DVC
-В Jenkins запускается ansible playbook и проверяет есть ли измения гиперпараметра в репе, если да то мы мы переобучаем модель и сохраняем артефакт
+В Jenkins запускается ansible playbook и проверяет есть ли измения гиперпараметра в репе, если да то мы мы переобучаем модель и сохраняем артефакт, а с помощью ansible можем управлять и datasrv и mlsrv
+# Jenkins
+![image](https://github.com/MaxAvgae/mlops2_project_1/assets/115181255/76a5aec8-bc9b-4233-904a-ba8950ebf985)
+![image](https://github.com/MaxAvgae/mlops2_project_1/assets/115181255/44831ca2-fd96-46dd-b96c-50624b92d0c6)
+![image](https://github.com/MaxAvgae/mlops2_project_1/assets/115181255/c7987405-301a-4cb9-b844-3ca9206a9e97)
 
 # Вывод jenkins
 04:50:30 Started by user Max Trokin
@@ -78,4 +82,5 @@ ML-server - Обучение модели и push датасета  в Data-serv
 04:50:38 mlserver                   : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 04:50:38 
 04:50:38 Finished: SUCCESS
-
+# настроенные машины
+![image](https://github.com/MaxAvgae/mlops2_project_1/assets/115181255/46352a7f-f1ca-45a9-94bb-2eca6595c519)
