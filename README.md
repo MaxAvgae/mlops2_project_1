@@ -7,9 +7,9 @@
 5) Провел сравнение метрик
 # Инфраструктура - виртуальные машины развернул в VBox:
 
-Data-server - храним датасеты (DVC)
-Admin-server - Jenkins и Ansible - с помощью этого сервера управляем остальными
-ML-server - Обучение модели и push датасета  в Data-server с помощью DVC
+1) Data-server - храним датасеты (DVC)
+2) Admin-server - Jenkins и Ansible - с помощью этого сервера управляем остальными
+3) ML-server - Обучение модели и push датасета  в Data-server с помощью DVC
 В Jenkins запускается ansible playbook и проверяет есть ли измения гиперпараметра в репе, если да то мы мы переобучаем модель и сохраняем артефакт, а с помощью ansible можем управлять и datasrv и mlsrv
 # Jenkins
 ![image](https://github.com/MaxAvgae/mlops2_project_1/assets/115181255/76a5aec8-bc9b-4233-904a-ba8950ebf985)
